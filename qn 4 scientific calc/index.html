@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Scientific calculator</title>
+  </head>
+  <body>
+    <div><input type="text" id="display" disabled /></div>
+    <br />
+    <div id="nums">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <br />
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <br />
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <br />
+      <button>0</button>
+    </div>
+    <br />
+    <div><button onclick="set('')">clear</button></div>
+    <br />
+    <div>
+      <button onclick="ap('+')">+</button>
+      <button onclick="ap('-')">-</button>
+      <button onclick="ap('*')">*</button>
+      <button onclick="ap('/')">/</button>
+      <button onclick="eq()">=</button>
+    </div>
+    <br />
+    <div>
+      <button onclick="sin()">sin</button>
+      <button onclick="sin()">cos</button>
+      <button onclick="tan()">tan</button>
+      <button onclick="log10()">log10</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
