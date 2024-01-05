@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Book SYSTEM "Book.dtd">
+<Book>
+    <Title>Nineteen Eighty-Four</Title>
+    <AuthorName>George Orwell</AuthorName>
+    <ISBNNumber>9788192910901 </ISBNNumber>
+    <PublisherName>Secker and Warburg</PublisherName>
+    <Edition>Paperback</Edition>
+    <Price>179</Price>
+</Book>
